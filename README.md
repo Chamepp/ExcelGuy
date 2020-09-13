@@ -10,6 +10,20 @@ ExcelGuy python script for excel sheets </br>
 handeling and managing with more ease </br>
 </br>
 
+# Setup
+
+Use the following command for installing </br>
+the pypiwin32 packae & libraries
+
+| pip install pypiwin32               |
+| ----------------------------------- |
+
+</br>
+
+| python3.8 main.py               |
+| ------------------------------- |
+
+# Commands
 
 | Commands | Description |
 | ---------- | ----------- |
