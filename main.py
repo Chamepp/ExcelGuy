@@ -20,12 +20,21 @@ import os
 
 
 
+# Color Splash
+
+class Colors:
+
+    BANNER = '\033[32m'
+    WARNING = '\033[31m'
+
+
+
 # BANNER
 
 time.sleep(0.7)
 
 Banner = "    " \
-    "##############    ####      ####     ##############     ##############     ###                         ##############     ###        ###      ####      ####\n\
+    "##############   ####      ####     ##############     ##############     ###                         ##############     ###        ###      ####      ####\n\
     ############      ####      ####     ##########         ############       ###                         ###########        ###        ###      ####      ####\n\
     ###               ####      ####     ######             ###                ###                         ##                 ###        ###      ####      ####\n\
     ##                ####      ####     ###                ##                 ###                         ##                 ###        ###      ####      ####\n\
@@ -39,8 +48,9 @@ Banner = "    " \
     ##############    ####      ####     ##############     ##############     ##############              ##############       ##########             ####     \n"
 
 
+# Print Banner
 
-print(Banner)
+print(Colors.BANNER, Banner)
 
 
 
@@ -176,5 +186,5 @@ elif Menu_Convertor:
 else:
 
     Sleeper
-    print("Wrong Credentials !!!")  # Wrong Menu Selection
+    print(Colors.WARNING + "Wrong Credentials !!!")  # Wrong Menu Selection
     Sleeper()
