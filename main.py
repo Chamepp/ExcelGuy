@@ -18,7 +18,7 @@ import time
 
 # Main Local Variables
 
-Introduction = "Welcome To Ashkans Script " \
+Introduction = "\n \n \n Welcome To ExcelGuy Script " \
                "\n You Can Easily Handle Your Excel WorkSheets " \
                "\n in Diffrent Cool Ways ... \n \n \n"
 
@@ -141,3 +141,4 @@ else:
 
     Sleeper
     print("Wrong Credentials !!!")  # Wrong Menu Selection
+    Sleeper()
