@@ -10,26 +10,62 @@ Install pypiwin32
 pip install pypiwin32
 '''
 
+
 # imports
 
 import openpyxl
 from openpyxl.styles import Alignment
 import time
+import os
+
+
+
+# BANNER
+
+time.sleep(0.7)
+
+Banner = "    " \
+    "##############    ####      ####     ##############     ##############     ###                         ##############     ###        ###      ####      ####\n\
+    ############      ####      ####     ##########         ############       ###                         ###########        ###        ###      ####      ####\n\
+    ###               ####      ####     ######             ###                ###                         ##                 ###        ###      ####      ####\n\
+    ##                ####      ####     ###                ##                 ###                         ##                 ###        ###      ####      ####\n\
+    ##                #####    #####     ###                ##                 ###                         ##                 ###        ###      ####      ####\n\
+    #############         #####          ###                #############      ###                         ##                 ###        ###      ####      ####\n\
+    #############         #####          ###                #############      ###                         ##      ######     ###        ###       ############ \n\
+    ##                #####    #####     ###                ##                 ###                         ##      ######     ###        ###        ##########  \n\
+    ##                ####      ####     ###                ##                 ###                         ##         ###     ####      ####          ######    \n\
+    ###               ####      ####     ######             ###                ##########                  ##         ###     #####    #####          ######    \n\
+    ############      ####      ####     ##########         ############       ##############              ##############      ############           ######    \n\
+    ##############    ####      ####     ##############     ##############     ##############              ##############       ##########             ####     \n"
+
+
+
+print(Banner)
+
+
+
+
+
 
 # Main Local Variables
+
 
 Introduction = "\n \n \n Welcome To ExcelGuy Script " \
                "\n You Can Easily Handle Your Excel WorkSheets " \
                "\n in Diffrent Cool Ways ... \n \n \n"
+
 
 Menu = "1- Excel Merger " \
        "\n 2- Excel Scraper" \
        "\n 3- Excel Converter" \
        "\n \n \n"
 
+
 # Print Instructions
 
+time.sleep(0.7)
 print(Introduction)
+time.sleep(1.5)
 print(Menu)
 
 # User Input
@@ -93,13 +129,13 @@ elif Menu_Convertor:
     Sleeper()
 
     # Excel File Collector
-    Excel_Source_Input = input("Give Me The Excel Source : ")
+    Excel_Source_Input = input("Excel Folder Directory : ")
     Excel_Source = Excel_Source_Input
     Sleeper()
     Excel_Name_Input = input("Excel Name : ")
     Excel_Name = Excel_Name_Input
     Sleeper()
-    Excel_Final_Output = r'{}{}'.format(Excel_Source, Excel_Name)
+    Excel_Final_Output = r'{}{}{}'.format(Excel_Source, "/", Excel_Name)
     print("Excel Source Collected Successfully ... \n \n")
     Sleeper()
 
@@ -110,7 +146,7 @@ elif Menu_Convertor:
     PDF_Name_Input = input("PDF Name : ")
     PDF_Name = PDF_Name_Input
     Sleeper()
-    PDF_Final_Output = r'{}{}'.format(PDF_Source, PDF_Name)
+    PDF_Final_Output = r'{}{}{}'.format(PDF_Source, "/", PDF_Name)
     print("PDF Info Collected Successfully ... \n \n")
     Sleeper()
 
