@@ -11,8 +11,9 @@ handeling and managing with more ease </br>
 </br>
 
 
-|First Header|Second Header|
+| Commands | Description |
 | ---------- | ----------- |
-|Command One | Command Two |
+| Merger | Excel merger provides excel merging by cell and row mentioning. |
+| Scraper | Scraper tool contains Web-Tableview scraping and converting to Excel sheet. |
 
 
