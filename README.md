@@ -15,5 +15,6 @@ handeling and managing with more ease </br>
 | ---------- | ----------- |
 | Merger | Excel merger provides excel merging by cell and row mentioning. |
 | Scraper | Scraper tool contains Web-Tableview scraping and converting to Excel sheet. |
+| Converter | Converts Excel sheet type to pdf file. |
 
 
