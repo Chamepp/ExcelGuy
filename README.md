@@ -33,5 +33,5 @@ The **pypiwin32** Package & Libraries
 
 # Expansion
 
-**Developed By Ashkan Ebtekari**
+**Developed With LOVE By Ashkan Ebtekari** </br>
 **All Rights Reversed**
