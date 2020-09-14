@@ -12,7 +12,7 @@ handeling and managing with more easement </br>
 # Setup
 
 Use The Following Command For Installing </br>
-**pypiwin32** and  Package & Libraries
+**pypiwin32** and **openpyxl** Packages & Libraries
 
 | pip install pypiwin32               |
 | ----------------------------------- |
